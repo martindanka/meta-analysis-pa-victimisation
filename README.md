@@ -1,5 +1,5 @@
 # Physical activity and common mental health disorders following childhood victimisation
-A repository for the systematic review on 'The role of physical activity and sedentary behaviours in the prevention and treatment of common mental disorders following childhood victimisation'
+A repository for the meta-analysis on 'The role of physical activity and sedentary behaviours in the prevention and treatment of common mental disorders following childhood victimisation'
 
 What you'll need to do:
 
