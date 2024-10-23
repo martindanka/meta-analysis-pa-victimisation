@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+**/*.sav
+**/*.dat
+**/*.sps
+.DS_Store
+.Rprofile
