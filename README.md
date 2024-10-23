@@ -2,7 +2,8 @@
 A repository for the systematic review on 'The role of physical activity and sedentary behaviours in the prevention and treatment of common mental disorders following childhood victimisation'
 
 What you'll need to do:
-Optional: Install the R version used (R 4.3.1)
+
+0. Optional: Install the R version used (R 4.3.1)
 1. Import, clone or download the contents of this repository.
 2. Open meta-analysis-pa-vict.Rproj in RStudio.
 3. Open the scripts (0_correlations.R, 1_data_processing.R, 2_meta-analysis.R)
