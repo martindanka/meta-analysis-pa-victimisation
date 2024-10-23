@@ -4,9 +4,18 @@ library(dmetar)
 library(meta)
 library(metafor)
 library(tidyverse)
+library(officer)
+library(flextable)
 
 # Random-effects meta-analysis ------------------------------------------------------------------------------------
 final_dataset <- readRDS(file = "final_dataset.rds")
+
+# Clean labels
+## Insert et al. before the year 
+final_dataset$author <- gsub("(\\d{4})", " et al., \\1", final_dataset$author)
+
+# Amend Dube to Dube & Rishi and delete the et al in Dube & Rishi only
+final_dataset$author <- gsub("Dube et al.", "Dube & Rishi", final_dataset$author)
 
 pooled_meta <- metagen(
   TE = yi,
@@ -201,7 +210,7 @@ meta::forest(
 # 
 # ft <- flextable(sensitivity_table)
 # doc <- read_docx()
-# doc <- doc %>% 
+# doc <- doc %>%
 #   body_add_flextable(ft)
 # print(doc, target = "sensitivity_table.docx")
 

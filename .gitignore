@@ -7,3 +7,7 @@
 **/*.sps
 .DS_Store
 .Rprofile
+**/*.png
+sensitivity_table.docx
+forestplot.pdf
+funnelplot.pdf
